@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Valcourt Ritchedson</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<header class="navbar">
+<nav class="nav-container">
+<div class="logo">Valcourt</div>
+
+<ul class="nav-links" id="navLinks">
+<li><a href="#about" class="nav-link">À propos</a></li>
+<li><a href="#skills" class="nav-link">Compétences</a></li>
+<li><a href="#projects" class="nav-link">Projets</a></li>
+<li><a href="#contact" class="nav-link">Contact</a></li>
+<li class="close-menu-btn">
+<button class="close-btn" id="closeBtn">
+<i class="fas fa-times"></i>
+</button>
+</li>
+</ul>
+
+<div class="nav-actions">
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+<i class="fas fa-moon"></i>
+</button>
+<button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+<i class="fas fa-bars"></i>
+</button>
+</div>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<div class="profile-wrapper">
+<img src="images/profil.jpeg" alt="Valcourt Ritchedson" class="profile-pic">
+<div class="glow-ring"></div>
+</div>
+<h1 class="hero-title">Valcourt Ritchedson</h1>
+<p class="hero-subtitle">Étudiant en Sciences Informatiques</p>
+<p class="hero-description">Passionné par la cybersécurité et le développement web</p>
+<a href="#projects" class="btn btn-primary">Voir mes projets</a>
+</div>
+
+<div class="scroll-indicator">
+<span></span>
+</div>
+</section>
+
+<section id="about" class="section about-section">
+<div class="section-content">
+<h2 class="section-title">À propos</h2>
+<div class="about-wrapper">
+<div class="about-text">
+<p>
+Étudiant en sciences informatiques passionné par la cybersécurité,
+les réseaux informatiques et le développement web.
+Je développe mes compétences techniques afin de contribuer
+à des projets technologiques et à la sécurité informatique.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills" class="section skills-section">
+<div class="section-content">
+<h2 class="section-title">Compétences</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<div class="skill-icon">
+<i class="fas fa-globe"></i>
+</div>
+<h3>Réseaux</h3>
+<p>TCP/IP, DNS, DHCP, configuration réseau</p>
+<div class="skill-bar">
+<div class="skill-level" style="width: 85%"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">
+<i class="fas fa-shield-alt"></i>
+</div>
+<h3>Cybersécurité</h3>
+<p>Analyse sécurité, sécurité réseau</p>
+<div class="skill-bar">
+<div class="skill-level" style="width: 80%"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">
+<i class="fas fa-code"></i>
+</div>
+<h3>Web</h3>
+<p>HTML, CSS, JavaScript</p>
+<div class="skill-bar">
+<div class="skill-level" style="width: 75%"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">
+<i class="fas fa-terminal"></i>
+</div>
+<h3>Linux</h3>
+<p>Commandes Linux, administration système</p>
+<div class="skill-bar">
+<div class="skill-level" style="width: 88%"></div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="projects" class="section projects-section">
+<div class="section-content">
+<h2 class="section-title">Projets</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<div class="project-header">
+<h3>Portfolio Web</h3>
+</div>
+<div class="project-body">
+<p>Site web personnel responsive développé en HTML CSS.</p>
+<div class="project-tags">
+<span class="tag">HTML</span>
+<span class="tag">CSS</span>
+</div>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-header">
+<h3>Analyse Réseau</h3>
+</div>
+<div class="project-body">
+<p>Projet d'analyse de trafic réseau.</p>
+<div class="project-tags">
+<span class="tag">Réseaux</span>
+<span class="tag">Analyse</span>
+</div>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-header">
+<h3>Configuration LAN</h3>
+</div>
+<div class="project-body">
+<p>Simulation réseau réalisée avec Packet Tracer.</p>
+<div class="project-tags">
+<span class="tag">Réseaux</span>
+<span class="tag">Packet Tracer</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="contact" class="section contact-section">
+<div class="section-content">
+<h2 class="section-title">Contact</h2>
+
+<div class="contact-info">
+<div class="contact-item">
+<span class="contact-icon">
+<i class="fas fa-envelope"></i>
+</span>
+<p><strong>Email :</strong> <a href="mailto:valcourtritchedson@gmail.com">valcourtritchedson486@gmail.com</a></p>
+</div>
+<div class="contact-item">
+<span class="contact-icon">
+<i class="fas fa-phone"></i>
+</span>
+<p><strong>Téléphone :</strong> <a href="tel:+5093471841">+509 3467 8731 / 3207 9489</a></p>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>&copy; 2026 Valcourt Ritchedson. Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
