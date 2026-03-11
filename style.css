@@ -22,11 +22,11 @@
   --primary-dark: #3c7cff;
   --secondary: #e0e6f2;
   --accent: #00d4ff;
-  --text: #e0e0e0;
-  --text-light: #a0a0a0;
-  --bg: #0f1419;
-  --bg-card: #1a1f2e;
-  --border: #2a2f3e;
+  --text: #d0d0d0;
+  --text-light: #888888;
+  --bg: #050a12;
+  --bg-card: #0d1119;
+  --border: #1a1f2e;
   --success: #4caf50;
 }
 
@@ -707,15 +707,16 @@ body {
 
 /* CONTACT SECTION */
 .contact-section {
-  background: linear-gradient(135deg, #1c2f5a 0%, #2a3f6a 100%);
-  color: white;
+  background: linear-gradient(135deg, #f0f4f8 0%, #e8ecf0 100%);
+  color: #1c2f5a;
   margin: 40px 5%;
   border-radius: 20px;
   transition: background 0.3s ease;
 }
 
 [data-theme="dark"] .contact-section {
-  background: linear-gradient(135deg, #1a1f2e 0%, #252b3a 100%);
+  background: linear-gradient(135deg, #0d1119 0%, #161b22 100%);
+  color: #e0e0e0;
 }
 
 .contact-info {
@@ -754,15 +755,23 @@ body {
 }
 
 .contact-item a {
-  color: #00d4ff;
+  color: #3c7cff;
   text-decoration: none;
   transition: all 0.3s ease;
   font-weight: 500;
 }
 
 .contact-item a:hover {
-  color: white;
+  color: #2c5dd9;
   text-decoration: underline;
+}
+
+[data-theme="dark"] .contact-item a {
+  color: #00d4ff;
+}
+
+[data-theme="dark"] .contact-item a:hover {
+  color: #5acdff;
 }
 
 /* FOOTER */
