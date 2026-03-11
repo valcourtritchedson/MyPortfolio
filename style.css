@@ -792,6 +792,15 @@ footer p {
   font-size: 0.95rem;
 }
 
+/* Hide close button and menu button on desktop */
+.close-menu-btn {
+  display: none;
+}
+
+.menu-btn {
+  display: none !important;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   .nav-links {
@@ -825,6 +834,7 @@ footer p {
   }
 
   .close-menu-btn {
+    display: block;
     position: absolute;
     top: 20px;
     right: 20px;
